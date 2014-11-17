@@ -80,5 +80,5 @@ Pinteresting::Application.configure do
 
   # Required for Devise/Heroku
   # Note to set this to yoru actual host
-  config.action_mailer.default_url_uptions = { :host => 'localhost:3000'}
+  config.action_mailer.default_url_options = { :host => 'localhost:3000'}
 end
