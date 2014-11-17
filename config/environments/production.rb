@@ -77,4 +77,8 @@ Pinteresting::Application.configure do
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
+
+  # Required for Devise/Heroku
+  # Note to set this to yoru actual host
+  config.action_mailer.default_url_uptions = { :host => 'localhost:3000'}
 end
